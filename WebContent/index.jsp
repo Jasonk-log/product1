@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+index.jsp product1
 </body>
 </html>
