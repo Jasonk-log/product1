@@ -19,15 +19,15 @@
 	
 	JSONObject jsonObj1 = (JSONObject) obj1;
 	String nm_part1 = (String) jsonObj1.get("name");
-	int up_part1 = (int) jsonObj1.get("unitprice");
+	Integer up_part1 = (Integer) jsonObj1.get("unitprice");
 	
 	JSONObject jsonObj2 = (JSONObject) obj2;
 	String nm_part2 = (String) jsonObj2.get("name");
-	int up_part2 = (int) jsonObj2.get("unitprice");
+	Integer up_part2 = (Integer) jsonObj2.get("unitprice");
 	
 	JSONObject jsonObj3 = (JSONObject) obj3;
 	String nm_part3 = (String) jsonObj3.get("name");
-	int up_part3 = (int) jsonObj3.get("unitprice");
+	Integer up_part3 = (Integer) jsonObj3.get("unitprice");
 	
 
 	Integer quantity = 10;
