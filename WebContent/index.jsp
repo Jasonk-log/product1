@@ -19,7 +19,8 @@
 	
 	JSONObject jsonObj1 = (JSONObject) obj1;
 	String nm_part1 = (String) jsonObj1.get("name");
-	Long up_part1 = (Long) jsonObj1.get("unitprice");
+	String up_part1_tmp = (String) jsonObj1.get("unitprice");
+	Long up_part1 = Long.parseLong(up_part1_tmp);
 	
 	//JSONObject jsonObj2 = (JSONObject) obj2;
 	//String nm_part2 = (String) jsonObj2.get("name");
